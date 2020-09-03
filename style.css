@@ -1,0 +1,79 @@
+h1 {
+    color : lightcoral
+}
+
+.header *{
+    border : solid;
+}
+
+.header{
+    background-color : lightskyblue;
+    /*border-style : groove;*/
+    display : flex;
+    justify-content : space-between;
+}
+
+.side-des{
+    display : flex;
+    color : darkblue;
+    background-image : url("paper.jpg");
+    border-style : groove;
+    flex-direction : column;
+    justify-content : first baseline;
+}
+
+.grid{
+    display : flex;
+    flex-wrap : wrap;
+    justify-content : space-evenly;
+}
+
+.designs{
+    display : flex;
+    justify-content : flex-ends;
+    width: 375px;
+    height:360px;
+    padding: 5px;
+    border-style : dotted;;
+    margin: 0;
+}
+
+p,h3{
+    text-align : center;
+}
+
+a:link{
+    color : lightskyblue;
+}
+
+a.visited{
+    color : lightsalmon;
+}
+
+.menu{
+    margin-right : 20px;
+}
+
+.menu a{
+    margin-left : 20px;
+}
+
+.link{
+    position : relative;
+}
+
+.link p{
+    position : absolute;
+    top : 50%;
+    left : 50%;
+    transform : translate(-50%, -50%);
+    opacity : 0; 
+}
+
+.link:hover p{
+    opacity : 1;
+}
+
+.link:hover img{
+    opacity : 0.33;
+}
